@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center><h1>GENERAL BUS PASS APPLICATION</h1></center>
+    <fieldset>
+        <legend><h3>Applicant Details</h3></legend>
+    <pre>   <label for="first name"><strong>Name</strong></label>             <input type="text" name="First Name" id="first name" required>          <label for="name"><strong>Father's/Guardian's Name</strong></label>            <input type="text" name="First Name" id="name" required></pre>
+    <pre>   <label for="Birth"><strong>Date of Birth</strong></label>          <input type="date" name="Date of Birth" id="Birth" required>                    <label for="sex"><strong>gender</strong></label>                       <label for="sex">Male</label> <input type="radio" id="sex" name="gender" value="male" required>   <label for="Fe">Female</label>  <input type="radio" id="Fe" name="gender" value="Female" required></pre>
+    <pre>  <label for="age"><strong>Age as now</strong></label>        <input type="age" name="Age as now" id="age" required>             <label for="aadhar"><strong>Aadhar no</strong></label>                       <input type="text" name="Aadhar No:" id="aadhar" required> </pre>
+    <pre>  <label for="number"><strong>Mobile No</strong></label>        <input type="number" name="Mobile No" id="number" required>               <label for="mail"><strong>E-mail id</strong></label>                       <input type="email" name="E-mail id" id="mail" required></pre>
+    <pre>  <label for="photo"><strong>Photo</strong></label>            <input type="file" name="Photo" id="photo" required> </pre>
+    </fieldset>
+    
+    <fieldset>
+        <legend><h3>Residential Address Details</h3></legend>
+        <pre><label for="address"><strong>Applicant's Address</strong></label>     <textarea name="Address" id="address" rows="3" cols="35" maxlength="20"></textarea>       <label for="district"><strong>District</strong></label>     <select name="district" id="district"> <option value="Guntur">Guntur</option>  <option value="Krishna">Krishna</option>  <option value="NTR">NTR</option> </select></pre>
+        <pre><label for="mandal"><strong>Mandal</strong></label>     <select name="Mandal" id="mandal"> <option value="Mylavaram">Mylavaram</option>  <option value="Vijayawada">Vijayawada</option>  <option value="Raja">Raja</option></select>                                       <label for="village"><strong>Village</strong></label>     <select name="Village" id="village"> <option value="Ramachandrapuram">Ramachandrapuram</option>  <option value="Vizag">Vizag</option>  <option value="Rama">Rama</option> </select> </pre>  
+        <pre></pre>
+        </fieldset>
+
+        <fieldset>
+            <legend><h3>Pass Type Details</h3></legend>
+          <pre> <label for="city"><strong>City</strong></label>    <select name="City" id="city">              <option value="Guntur">Guntur</option>  <option value="Vijayawada">Vijayawada</option>  <option value="Daman">Daman</option> </select></pre>
+          <pre> <label for="type"><strong>Pass Type</strong></label>   <select name="Pass Type" id="type">              <option value="Standard">Standard</option>  <option value="Normal">Normal</option> </select> </pre>
+          <pre>   <label for="Pincode"><strong>Pincode</strong></label>          <input type="Pincode" name="Pincode" id="Pincode" required></pre>
+          </fieldset>
+
+          <fieldset>
+            <legend><h3>Mode of Payment & Pass Collection</h3></legend>
+            <pre> <label for="Mode"><strong>Payment Mode </strong></label>   <select name="Payment Mode " id="mode">              <option value="Cash">Cash</option>  <option value="Card">Card</option> </select> </pre>
+            <pre> <label for="Delivery"><strong>Pass Delivery Mode</strong></label>   <select name="Pass Delivery Mode" id="Delivery">              <option value="Standard">Standard</option>  <option value="Normal">Normal</option> </select> </pre>
+            <pre> <label for="center"><strong>Center at which you want to collect the pass</strong></label>   <select name="Center at which you want to collect the pass" id="center">              <option value="Home">home</option>  <option value="Work">Work</option> </select> </pre>
+            </fieldset>
+           <center><input type="submit"></center>
+</body>
+</html>
